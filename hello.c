@@ -9,5 +9,17 @@
                  printf("C says: Hello, World!\n");
                  printf("%d + %d = %d\n",a,b,c);
               
-                 return 0;
+            		 
                }
+char* listOfUsers[3];
+    listOfUsers[0] = "User1";
+    listOfUsers[1] = "User2";
+    listOfUsers[2] = "User3";	
+
+ for (int i = 0; i < 3; i++) {
+        printf("%s\n", listOfUsers[i]);
+    }
+
+    return 0
+}
+
